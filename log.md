@@ -18,3 +18,40 @@
 
 **Link to work:**
 [Commit 2793189](https://github.com/tnewton1/python-crash-course/commit/27931898b27bb645c82f30d8172791786e1adb46)
+
+### Day 2: May 28, 2020
+
+**Today's Progress**: Worked more on Chapter 9 "Classes", excercise 9-8.
+
+**Thoughts:** This was a particularly hard challenge for me. I had to look a few things up in order to get it to work. Turns out, I really messed it up. I guess I was extra tired which didn't help. While Exercise 9-7 is _kind of_ correct, it actually isn't. I should have created an empty list for permissions. For example, this is just wrong:
+
+```
+class Admin(User):
+    def __init__(self, first_name, last_name):
+        super().__init__(first_name, last_name)
+        self.privileges = ['can add post', 'can delete post', 'can ban user', 'can edit post', 'can delete user', 'can change username']
+
+    def show_privileges(self):
+        print("Assigned privileges: ")
+        for privileges in self.privileges:
+            print(f"\n· {privileges.title()}")
+```
+
+It should be:
+
+```
+class Admin(User):
+    def __init__(self, first_name, last_name):
+        super().__init__(first_name, last_name)
+        self.privileges = []
+
+    def show_privileges(self):
+        print("Assigned privileges: ")
+        for privileges in self.privileges:
+            print(f"\n· {privileges.title()}")
+```
+
+And then you would define the privileges by creating a list later on. Oh well. Lesson learned! 
+
+**Link to work:**
+[Commit fb5963d](https://github.com/tnewton1/python-crash-course/commit/fb5963d5ba757a042975987b0ef9232619772b33)
