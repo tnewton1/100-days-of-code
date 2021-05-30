@@ -55,3 +55,13 @@ And then you would define the privileges by creating a list later on. Oh well. L
 
 **Link to work:**
 [Commit fb5963d](https://github.com/tnewton1/python-crash-course/commit/fb5963d5ba757a042975987b0ef9232619772b33)
+
+### Day 3: May 29, 2021
+
+**Today's Progress**: Worked more on Chapter 9. Completed exercise 9-9, and part of Importing Classes, pages 174-176.
+
+**Thoughts:** I am noticing I am starting to notice the patterns in the code and where I can reuse stuff. I did not find exercise 9-9 too challenging. It was pretty easy to figure out. Importing classes is a great topic to be on as I find it particularly helpful to be organized in code and this helps me out. I was noticing that some of these files were getting long and a bit chaotic. Breaking them up helps!
+
+**Link to work:**
+1. [Commit ad072d7](https://github.com/tnewton1/python-crash-course/commit/ad072d7d59dd11d95dd770d8d66fe8f70db03c16)
+2. [Commit 3f9233b](https://github.com/tnewton1/python-crash-course/commit/3f9233b46af602b61f1f985aaeb49ecde577bb4f)
