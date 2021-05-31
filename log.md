@@ -65,3 +65,12 @@ And then you would define the privileges by creating a list later on. Oh well. L
 **Link to work:**
 1. [Commit ad072d7](https://github.com/tnewton1/python-crash-course/commit/ad072d7d59dd11d95dd770d8d66fe8f70db03c16)
 2. [Commit 3f9233b](https://github.com/tnewton1/python-crash-course/commit/3f9233b46af602b61f1f985aaeb49ecde577bb4f)
+
+### Day 4: May 30, 2021
+
+**Today's Progress**: Simple day. Worked on importing multiple classes, page 177
+
+**Thoughts:** I took an easy day today. I'm promising myself to do more tomorrow. This was just importing multiple classes. It was fairly simple and not too hard.
+
+**Link to work:**
+1. [Commit 786e248](https://github.com/tnewton1/python-crash-course/commit/786e248932f2c2b6007371e02abfd20092a5fab3)
