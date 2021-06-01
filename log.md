@@ -74,3 +74,12 @@ And then you would define the privileges by creating a list later on. Oh well. L
 
 **Link to work:**
 1. [Commit 786e248](https://github.com/tnewton1/python-crash-course/commit/786e248932f2c2b6007371e02abfd20092a5fab3)
+
+### Day 5: May 31, 2021
+
+**Today's Progress**: Another simple day. Pages 177-180, exercises 9-10 and 9-11.
+
+**Thoughts:** It was another easy day. Just working on some simple exercises and redoing some exercises with new skills.
+
+**Link to work:**
+1. [Commit 584c54d](https://github.com/tnewton1/python-crash-course/commit/584c54d09275f332ac64ff0794173be8d9240bff)
