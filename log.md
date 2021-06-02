@@ -83,3 +83,32 @@ And then you would define the privileges by creating a list later on. Oh well. L
 
 **Link to work:**
 1. [Commit 584c54d](https://github.com/tnewton1/python-crash-course/commit/584c54d09275f332ac64ff0794173be8d9240bff)
+
+### Day 6: June 1, 2021
+
+**Today's Progress**: Worked on exercise 9-13 after reading through page 180.
+
+**Thoughts:** I burned most of my time trying to figure out some error messages. I kept getting the following:
+
+```
+travis@Traviss-MBP-M1 python-crash-course % /Library/Frameworks/Python.framework/Versions/3.9/bin/python3 /Users/travis/repos/python-crash-course/dice.py
+Traceback (most recent call last):
+  File "/Users/travis/repos/python-crash-course/dice.py", line 19, in <module>
+    result = die1.roll_die()
+  File "/Users/travis/repos/python-crash-course/dice.py", line 10, in roll_die
+    return randint(1, self.sides)
+AttributeError: 'Die' object has no attribute 'sides'
+```
+
+I kept going through my code. I even looked up the solution and adjusted my code to match (I was actually extremely close! I am proud of myself for that!) and I was still getting `AttributeError: 'Die' object has no attribute 'sides'`. Yes. It. Does. 
+
+After rage searching, I came across this [one reddit post on /r/learnpython](https://www.reddit.com/r/learnpython/comments/adcqw8/need_help_with_classes_getting_an_attributeerror/) by /u/2313499. It was the exact same (well, different attribute name) as mine. Then I see their comment:
+
+> Holy crap.. I just figured it out. I was using 3X_ for my init method instead of 2x_. or ___init___(3=bad) vs __init__(2 = good).
+
+I review my code. Sure enough, I had `__init___(self, sides=6)` instead of `__init__(self, sides=6)`. Three underscores at the end. VSCode must have carried in my initial underscore when I used autocomplete. I'm looking at using Atom or Sublime again. This isn't my first issue with VSCode. I've never had any issues with Sublime - and I even used Sublime to work in C.
+
+Anyways, today was a really short day and I didn't get much done because I spent most of the time troubleshooting a stupid error. 🥱
+
+**Link to work:**
+1. [Commit 8e6642c](https://github.com/tnewton1/python-crash-course/commit/8e6642cc4a78f2a55a0a25b03833c198fdb38d0e)
