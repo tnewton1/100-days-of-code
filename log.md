@@ -112,3 +112,12 @@ Anyways, today was a really short day and I didn't get much done because I spent
 
 **Link to work:**
 1. [Commit 8e6642c](https://github.com/tnewton1/python-crash-course/commit/8e6642cc4a78f2a55a0a25b03833c198fdb38d0e)
+
+### Day 7: June 2, 2021
+
+**Today's Progress**: Worked on exercise 9-14
+
+**Thoughts:** This excercise I wasn't able to complete. I think I have an issue in my `while` loop. When I tried executing the script, it never completed. I watched my CPU usage go up (but yay, M1 MBP! Still didn't hear the fan!) but nothing happened. I had to kill the process. Started debugging to try and figure out what the issue is but I'm out of time for today. 😞
+
+**Link to work:**
+1. [Commit ff66b3e](https://github.com/tnewton1/python-crash-course/commit/ff66b3e9b80bc8c530e5c218669a788fb657c24e)
